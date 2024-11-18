@@ -35,11 +35,16 @@ struct ShareView: View {
     var body: some View {
         VStack(spacing: 24) {
             if viewMode == .view && savedUrl.isEmpty && savedText.isEmpty && savedNote.isEmpty {
-                
-                Text("No Previous Saved Info Available!")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .frame(maxHeight: .infinity, alignment: .center)
+                VStack(spacing: 16) {
+                    Text("No Previous Saved Info Available!")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                    Text("Head to Safari and try to share a URL or some text!")
+                        .multilineTextAlignment(.center)
+                }
+                .frame(maxHeight: .infinity, alignment: .center)
+
                 
             } else {
                 if viewMode == .view {
