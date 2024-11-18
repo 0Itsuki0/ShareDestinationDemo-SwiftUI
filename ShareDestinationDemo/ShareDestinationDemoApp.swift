@@ -11,7 +11,7 @@ import SwiftUI
 struct ShareDestinationDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShareView()
         }
     }
 }

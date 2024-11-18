@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ShareDestinationDemo.xcscheme_^#shared#^_</key>
+		<key>MyShareExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ShareDestinationDemo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>98426FCF2CE9A03C00CF9008</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98426FE42CE9A9FE00CF9008</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
