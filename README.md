@@ -8,3 +8,5 @@ Specifically, this demo app contains
 
 
 ![](demo.gif)
+
+For further details, please check out my blog: [Make App a Destination App for Share (With Share Extension)](https://medium.com/@itsuki.enjoy/swiftui-make-app-a-destination-app-for-a-share-with-share-extension-a90deffa3bfa).
